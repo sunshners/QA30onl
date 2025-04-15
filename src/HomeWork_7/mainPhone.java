@@ -1,11 +1,11 @@
 package HomeWork_7;
 
-public class mainePhone {
+public class mainPhone {
     public static void main(String[] args) {
         // Создание трех экземпляров класса Phone
-        phome.Phone phone1 = new phome.Phone("655-855-0212", "Model S", 150.0);
-        phome.Phone phone2 = new phome.Phone("987-002-7475", "Model T");
-        phome.Phone phone3 = new phome.Phone();
+        phone.Phone phone1 = new phone.Phone("655-855-0212", "Model S", 150.0);
+        phone.Phone phone2 = new phone.Phone("987-002-7475", "Model T");
+        phone.Phone phone3 = new phone.Phone();
 
         // Вывод значений переменных
         phone1.displayInfo();
@@ -22,6 +22,6 @@ public class mainePhone {
         phone2.ReceiveCall("Garry", phone2.getNumber());
 
         // Вызов метода sendMessage
-        phome.Phone.sendMessage(phone1.getNumber(), phone2.getNumber());
+        phone.Phone.sendMessage(phone1.getNumber(), phone2.getNumber());
     }
 }

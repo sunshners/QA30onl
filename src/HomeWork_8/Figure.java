@@ -1,4 +1,6 @@
 package HomeWork_8;
 
-public class Figure {
+public abstract class Figure {
+    abstract double area();
+    abstract double perimeter();
 }

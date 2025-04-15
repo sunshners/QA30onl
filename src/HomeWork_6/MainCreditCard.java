@@ -1,7 +1,6 @@
 package HomeWork_6;
 
-public class ManeCreditCard {
-    public class mainCreditCard {
+public class MainCreditCard {
         public static void main(String[] args) {
             // Создание трех объектов класса CreditCard
             CreditCard.creditCard card1 = new CreditCard.creditCard("7148-8653-2200-1252", 1779.0);
@@ -20,4 +19,3 @@ public class ManeCreditCard {
             card3.displayInfo();
         }
     }
-}
