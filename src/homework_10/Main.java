@@ -1,10 +1,10 @@
-package HomeWork_10;
+package homework_10;
 
 import java.util.Scanner;
 
-import static HomeWork_10.string.*;
+import static homework_10.CheckDocument.*;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите номер документа (формат xxxx-yyy-xxxx-yyy-xyxy) Пример 5554-gff-3215-uyt-1a2b :");

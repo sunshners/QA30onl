@@ -1,10 +1,10 @@
-package HomeWork_8;
+package homework_8;
 
-public class rectangle extends Figure {
+public class Rectangle extends Figure {
     private double width;
     private double height;
 
-    public rectangle(double width, double height) {
+    public Rectangle(double width, double height) {
         this.width = width;
         this.height = height;
     }

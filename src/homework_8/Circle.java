@@ -1,9 +1,9 @@
-package HomeWork_8;
+package homework_8;
 
-public class circle extends Figure {
+public class Circle extends Figure {
     private double radius;
 
-    public circle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 

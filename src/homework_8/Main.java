@@ -1,13 +1,13 @@
-package HomeWork_8;
+package homework_8;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Figure[] figures = new Figure[5];
-        figures[0] = new rectangle(4, 5);
-        figures[1] = new triangle(3, 4, 5);
-        figures[2] = new circle(3);
-        figures[3] = new rectangle(6, 7);
-        figures[4] = new triangle(5, 12, 13);
+        figures[0] = new Rectangle(4, 5);
+        figures[1] = new Triangle(3, 4, 5);
+        figures[2] = new Circle(3);
+        figures[3] = new Rectangle(6, 7);
+        figures[4] = new Triangle(5, 12, 13);
 
         double totalPerimeter = 0;
 

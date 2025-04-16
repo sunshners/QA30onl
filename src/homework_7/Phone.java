@@ -1,26 +1,26 @@
-package HomeWork_7;
+package homework_7;
 
 import java.util.Arrays;
-public class phone {
-    static class Phone {
+public class Phone {
+    static class PhoneStatic {
         private String number;
         private String model;
         private double weight;
 
         // Конструктор с тремя параметрами
-        public Phone(String number, String model, double weight) {
+        public PhoneStatic(String number, String model, double weight) {
             this.number = number;
             this.model = model;
             this.weight = weight;
         }
 
         // Конструктор с двумя параметрами
-        public Phone(String number, String model) {
+        public PhoneStatic(String number, String model) {
             this(number, model, 0.0); // Вызывает предыдущий конструктор
         }
 
         // Конструктор без параметров
-        public Phone() {
+        public PhoneStatic() {
             this("Unknown", "Unknown", 0.0); // Вызывает предыдущий конструктор
         }
 

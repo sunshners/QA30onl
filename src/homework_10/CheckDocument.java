@@ -1,6 +1,6 @@
-package HomeWork_10;
+package homework_10;
 
-public class string {
+public class CheckDocument {
     public static void printBlocks(String docNumber) {
         String[] parts = docNumber.split("-");
         if (parts.length == 5) {
